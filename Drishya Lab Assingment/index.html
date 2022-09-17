@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Drishya Lab Assingment</title>
+    <link rel="stylesheet" href="style.css"></head>
+<body>
+    <div class="container">
+            <div class="tab tab-1">
+                <table id="table" >
+                    <thead>
+                        <th>First Input</th>
+                        <th>Second Input</th>
+                        <th>Last Input</th>
+                    </thead>
+                    <tbody id="rIndex">
+                    <tr>
+                        <td>10</td>
+                        <td>20</td>
+                        <td>10</td>
+                    </tr>
+                    <tr>
+                        <td>30</td>
+                        <td>10</td>
+                        <td>30</td>
+                    </tr>
+                    <tr>
+                        <td>50</td>
+                        <td>50</td>
+                        <td>20</td>
+                    </tr>
+                </tbody>
+                </table>
+            </div>
+            <div class="tab tab-2">
+                First input :<input type="number" name="fname" id="fname">
+                Second input :<input type="number" name="sname" id="sname">
+                Last input :<input type="number" name="lname" id="lname">
+                
+                <button onclick="addHtmlTableRow();">Add</button>
+                <button onclick="removeSelectedRow();">Remove</button>
+            </div>
+            <div>
+                Coloumn 1 sum = <span id="val"></span>
+            </div>
+            <div>Coloumn 2 sum = <span id="val2"></span></div>
+            <div>Coloumn 3 sum = <span id="val3"></span></div>
+           
+        </div>
+        <script src="script.js"></script>
+</body>
+</html>
